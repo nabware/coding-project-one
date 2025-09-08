@@ -12,6 +12,10 @@ void
 setup(int64_t N, float A[])
 {
    printf(" inside sum_vector problem_setup, N=%lld \n", N);
+
+   for (int64_t i = 0; i < N; ++i) {
+        A[i] = static_cast<float>(i);
+    }
 }
 
 float
@@ -19,6 +23,10 @@ sum(int64_t N, float A[])
 {
    printf(" inside sum_vector perform_sum, N=%lld \n", N);
 
-   return 0;
+   float total = 0.0f;
+   for (int64_t i = 0; i < N; ++i) {
+      total += A[i];
+   }
+   return total;
 }
 
