@@ -1,0 +1,10 @@
+# author: Nabeel Rana, Sept. 2025
+# data for use with the plot_3vars.py file
+Problem Size,Direct,Vector,Indirect
+8388608,7,7,19
+16777216,14,14,69
+33554432,28,29,153
+67108864,57,57,325
+134217728,115,114,672
+268435456,229,229,1368
+
